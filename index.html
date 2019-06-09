@@ -25,18 +25,16 @@
 
 
           
-            <nav class="navbar navbar-expand-sm navbar-light">  
+            <nav class="navbar navbar-expand-sm navbar-light mb-0 pb-0">  
 
                 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01">
               <span class="navbar-toggler-icon"></span> </button>
                 <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
                  <ul class="navbar-nav ml-auto ">
-                 <li class="nav-item active">
-                 <a class="nav-link text-info pb-0" href="#">Home <span class="sr-only">(current)</span></a>
-                 </li>
+               
                     <li class="nav-item">
-                <a class="nav-link text-info" href="#">Contact</a>
+                <a class="nav-link text-info" href="#" data-toggle="modal" data-target="#exampleModal">Contact</a>
                     </li>
                   </ul>
                 </div>   
@@ -47,7 +45,7 @@
           <div class=col-4> <img src=images/id.png width=200 height=200></div>
 
 
-          <div class= "col-8 pt-md-5 pl-5 pl-md-0 ">
+          <div class= "col-8 pt-md-5 pl-5 pl-md-0 ml-md-0">
             <div class="jumbotron> 
                 <div class="container text-white">
                   
@@ -65,6 +63,25 @@
 
 
     <main>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel">Contact Information</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+<p><b>Email: </b>pakdelkian@gmail.com</p>
+<p><b>Phone: </b> (555)555-0199  </p>              </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
 <div class = "container text-center">
   
     <div class="row text-center">
@@ -83,31 +100,31 @@
       <div class="container ">
         <div class="row ">
           <div class=" col-sm-6 col-md-4 ">
-              <div class=" bg-white ">
+              <div class=" bg-white align-items-center ">
             <div class="card align-items-center bg-danger" >
-              <div class="card-body">
+              <div class="card-body align-items-center">
                 <h5 class="card-title text-center text-white" id="posters">Posters</h5>
-                <a href="#" class="btn btn-light  text-danger">View</a>   
+                <a href="posters.html" class="btn btn-light  text-danger align-items-center">View</a>   
               </div>
             </div>
             </div>
           </div>
           <div class="col-sm 6 col-md-4">
-              <div class="bg-white">
+              <div class="bg-white align-items-center">
             <div class="card align-items-center bg-info">
-              <div class="card-body">
-                <h5 class="card-title text-center text-white" id="infographics">Infographics</h5>
-                <a href="#" class="btn btn-light text-info" >View</a>   
+              <div class="card-body align-items-center">
+                <h5 class="card-title text-center text-white" id="infographics">Projects</h5>
+               <div class=pl-3> <a href="projects.html" class="btn btn-light text-info align-items-center" >View</a>   </div>
               </div>
             </div>
           </div>
           </div>
           <div class="col-sm-6 col-md-4" >
-              <div class="bg-white ">
+              <div class="bg-white align-items-center">
             <div class="card align-items-center bg-warning"" >
-              <div class="card-body ">
+              <div class="card-body align-items-center">
                 <h5 class="card-title text-center text-white" id="videos">Videos</h5>
-              <a href="#" class="btn  btn-light text-warning">View</a>   
+              <a href="videos.html" class="btn  btn-light text-warning align-items-center" >View</a>   
             </h5>
             </div>
           </div>
