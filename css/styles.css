@@ -1,5 +1,16 @@
 
 
+.btn:hover  {
+  animation: pulse 1s infinite;
+}
+
+
+
+
+.icon:hover  {
+  animation: bounce 1s ;
+}
+
 .fade {
     -webkit-animation-name: fade;
     -webkit-animation-duration: 2s;
@@ -17,3 +28,5 @@
     from {opacity: .4} 
     to {opacity: 1}
   }
+
+  
